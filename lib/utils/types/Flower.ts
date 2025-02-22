@@ -1,10 +1,10 @@
 import { TPetal } from "./Path";
 
 export type TFlower = {
-  size?: number;
+  size: number;
   petalCount: number;
-  petalColor?: string;
-  baseColor?: string;
-  petalType?: TPetal;
-  baseRadiusFactor?: number;
+  petalColor: string;
+  baseColor: string;
+  petalType: TPetal;
+  baseRadiusFactor: number;
 };

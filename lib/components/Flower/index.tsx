@@ -3,7 +3,7 @@ import { TFlower } from "../../utils/types/Flower";
 
 export const Flower = ({
   size = 100,
-  petalCount,
+  petalCount = 4,
   petalColor = "pink",
   baseColor = "yellow",
   petalType = "flower",
