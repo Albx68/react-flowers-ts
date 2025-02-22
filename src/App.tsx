@@ -1,5 +1,3 @@
-import { Polygon } from "../lib/components/polygon/index.tsx";
-
 const App = () => {
   return (
     <div
@@ -12,13 +10,7 @@ const App = () => {
         backgroundColor: "red",
       }}
     >
-      <Polygon
-        sides={3}
-        size={40}
-        strokeWidth={18}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <h1>Draw Flowers in react</h1>
     </div>
   );
 };
