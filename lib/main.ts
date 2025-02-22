@@ -1,6 +1,5 @@
 export function helloAnything(thing: string): string {
-  return `Hello ${thing}!`
+  return `Hello ${thing}!`;
 }
 
-export { Polygon } from './components/polygon/index.tsx'
-
+export { Flower } from "./components/Flower/index.tsx";

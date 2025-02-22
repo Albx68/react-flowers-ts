@@ -1,16 +1,23 @@
+import { Flower } from "../lib/components/Flower/index";
+
 const App = () => {
   return (
     <div
       style={{
         display: "flex",
-        width: 400,
-        height: 400,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "red",
+        width: "100vw",
       }}
     >
-      <h1>Draw Flowers in react</h1>
+      <Flower
+        size={200}
+        petalCount={10}
+        petalColor="pink"
+        baseColor="yellow"
+        petalType="heart"
+        baseRadiusFactor={4}
+      />
     </div>
   );
 };
