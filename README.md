@@ -137,7 +137,6 @@ const FlowerPattern = () => (
 2. **Size and Proportions**:
 
    - Larger sizes (200+) show more detail
-   - `baseRadiusFactor` between 0.15-0.2 works well for most flowers
    - Adjust based on petal type and desired look
 
 3. **Color Combinations**:
